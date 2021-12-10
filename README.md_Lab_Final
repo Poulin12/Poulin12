@@ -6,4 +6,23 @@ The code pretty much runs it self.
 It is all based on the motion sensor acting as the input to trigger both the lcd screen and led.
 There is a delay between the input being detected and the light actually turning on and the same goes for the led and lcd to turn off.
 The lcd is set up so when the value is in low it will display one image versus value high displaying another message.
+
+Motivation-
+My intent for this project from the beginning was to give this project to my girlfriend. I originally had shown her lcd screen on its own with a sweet message that was very well received.
+Upon seeing the reaction I knew I could enhance it along with my project, thus allowing for more desire to succeed than just getting a good grade.
 -->
+Plans- 
+If all went according to plan (which it did), I would be able to combine and briefly modify all of the previous lab's code into one large program and make it run in unison. 
+
+How to set up build-
+Simply follow the directions here for the lcd board and motion sensor inputs and values (https://www.makerguides.com/hc-sr501-arduino-tutorial/, https://create.arduino.cc/projecthub/najad/interfacing-lcd1602-with-arduino-764ec4)
+You will need to assign some pins to new ports as there are overlapping directions, simply change the values of one of the input pins to a free number and it will work. 
+define led pins and assign them a corresponding number slot in the arduino board. 
+If you wish to change the wording of the board edit the lines that contain parentheses (i.e.   lcd.print("Nick Poulin Lab Final"); // msg for the top line of the lcd
+) 
+keep the parentheses and verify/upload the file into the board and it will work. 
+
+Reflections- 
+The major flaws of my project are cable management. There are so many cables that it is super easy to forget where one goes if it comes undone. If I had to do things over again I would found the longest cables possible and color coordinated the,.
+I had definitely learned that technical skills of this nature are far more simple than I had imagined, the idea of making something like my project coming into this class would have been far too advanced a thought. 
+After learning the basics, it really is not that hard. I'm no expert by any means but certainly am no longer afraid of similar topics. 
