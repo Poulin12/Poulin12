@@ -1,0 +1,9 @@
+### Hi there 👋
+
+<!--
+**Poulin12/Poulin12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+The code pretty much runs it self.
+It is all based on the motion sensor acting as the input to trigger both the lcd screen and led.
+There is a delay between the input being detected and the light actually turning on and the same goes for the led and lcd to turn off.
+The lcd is set up so when the value is in low it will display one image versus value high displaying another message.
+-->
